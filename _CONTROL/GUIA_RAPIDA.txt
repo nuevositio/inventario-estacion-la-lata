@@ -1,0 +1,98 @@
+════════════════════════════════════════════════════════════════
+   GUÍA RÁPIDA - GESTIÓN DOCUMENTAL ESTACIÓN LA LATA
+════════════════════════════════════════════════════════════════
+
+CONVENCIÓN DE NOMENCLATURA (OBLIGATORIA)
+─────────────────────────────────────────────────────────────────
+Formato: LL_CarpetaXX_DOCXXXX.pdf
+
+Ejemplos:
+  ✓ LL_Carpeta01_DOC0001.pdf
+  ✓ LL_Carpeta03_DOC0015.pdf
+  ✓ LL_Carpeta10_DOC0247.pdf
+
+Reglas:
+  • LL = La Lata (fondo)
+  • CarpetaXX = número de carpeta física (con dos dígitos: 01, 02, etc.)
+  • DOCXXXX = número correlativo del documento (con cuatro dígitos)
+  • NO incluir fechas, temas ni descriptores en el nombre
+
+════════════════════════════════════════════════════════════════
+
+TIPOS DOCUMENTALES COMUNES
+─────────────────────────────────────────────────────────────────
+□ Oficio                □ Mapa/Plano
+□ Carta                 □ Fotografía
+□ Acta                  □ Periódico/Recorte
+□ Expediente            □ Anuncio/Aviso
+□ Registro              □ Documento administrativo
+□ Listado/Catálogo      □ Factura/Recibo
+□ Memorándum            □ Certificado
+□ Resolución/Decreto    □ Contrato/Acuerdo
+□ Solicitud             □ Otro: _______________
+
+════════════════════════════════════════════════════════════════
+
+CAMPOS CLAVE PARA CADA DOCUMENTO
+─────────────────────────────────────────────────────────────────
+1. Nombre normalizado: LL_CarpetaXX_DOCXXXX.pdf
+2. Tipo documental: Clasificación específica
+3. Fecha: Exacta (DD/MM/AAAA) o aproximada (años 80)
+4. Autor/Emisor: Persona o institución que lo produce
+5. Tema principal: Asunto central en 2-3 palabras
+6. Descripción: 2-5 líneas de contexto objetivo
+7. Palabras clave: 5-12 términos para búsqueda
+8. Estado: Legibilidad (clara/parcial/baja), conservación
+9. Valor: Administrativo, histórico, patrimonial
+10. Observaciones: Incertidumbres, duplicados, etc.
+
+════════════════════════════════════════════════════════════════
+
+MARCAS ESPECIALES
+─────────────────────────────────────────────────────────────────
+[inferido]    → Información deducida, no explícita
+[dudoso]      → Hay incertidumbre
+[incompleto]  → Faltan páginas
+[ilegible]    → No legible
+DUPLICADO     → Documento repetido
+PATRIMONIO    → Valor histórico/cultural excepcional
+
+════════════════════════════════════════════════════════════════
+
+CHECKLIST ANTES DE COMPLETAR REGISTRO
+─────────────────────────────────────────────────────────────────
+□ Documento analizado completamente
+□ Tipo documental definido
+□ Fecha asignada (exacta o aproximada)
+□ Autor/Emisor identificado
+□ Tema principal determinado
+□ Descripción redactada (2-5 líneas)
+□ Palabras clave asignadas (5-12)
+□ Nombre técnico generado correctamente
+□ Todos los campos completados
+□ Sin datos inventados
+□ Incertidumbres registradas
+□ Trazabilidad verificada (carpeta + número)
+
+════════════════════════════════════════════════════════════════
+
+FLUJO DE TRABAJO
+─────────────────────────────────────────────────────────────────
+1. CARGAR PDF en carpeta física (Carpeta01, Carpeta02, etc.)
+2. ANALIZAR documento (contenido, tipo, fecha, autor, tema)
+3. GENERAR nombre técnico (LL_CarpetaXX_DOCXXXX.pdf)
+4. RENOMBRAR archivo en carpeta digital
+5. COMPLETAR datos en INVENTARIO_ESTACION_LA_LATA.csv
+6. REGISTRAR en planilla Excel de control
+
+════════════════════════════════════════════════════════════════
+
+CONTACTO Y REFERENCIAS
+─────────────────────────────────────────────────────────────────
+Fondo: Estación La Lata – Cardona
+Sistema: Inventario y repositorio documental
+Especialista: Archivística y gestión documental
+Fecha: 21 de abril de 2026
+Versión: 1.0
+
+════════════════════════════════════════════════════════════════

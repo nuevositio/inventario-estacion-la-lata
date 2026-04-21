@@ -1,0 +1,105 @@
+════════════════════════════════════════════════════════════════════════════
+                    FICHA CATALOGRÁFICA ESTACIÓN LA LATA
+════════════════════════════════════════════════════════════════════════════
+
+INFORMACIÓN DE IDENTIFICACIÓN
+─────────────────────────────────────────────────────────────────────────────
+Fondo documental:           Estación La Lata – Cardona
+ID único del inventario:    [    ]
+Nombre original del archivo: [                                              ]
+Nombre normalizado:         [LL_CarpetaXX_DOCXXXX.pdf                       ]
+Carpeta física:             [Carpeta__]
+Número de documento:        [DOC____]
+Ruta de almacenamiento:     [/Carpeta__/LL_Carpeta___DOC____.pdf            ]
+
+CLASIFICACIÓN DOCUMENTAL
+─────────────────────────────────────────────────────────────────────────────
+Tipo documental:            □ Oficio    □ Carta     □ Acta      □ Expediente
+                            □ Registro  □ Listado   □ Memorándum □ Resolución
+                            □ Certificado □ Factura □ Mapa     □ Fotografía
+                            □ Otro: ___________________________________________________
+
+Tema principal:             [                                              ]
+
+DATOS DESCRIPTIVOS
+─────────────────────────────────────────────────────────────────────────────
+Título:                     [                                              ]
+
+Fecha exacta:               [  /  /    ] (DD/MM/AAAA) o [No identificada]
+
+Fecha aproximada:           [Años:    ] o [Período:              ]
+
+Año:                        [    ]
+
+Autor/Emisor:               [                                              ]
+
+Destinatario:               [                                              ]
+
+Institución vinculada:      [                                              ]
+
+Lugar de referencia:        [                                              ]
+
+DESCRIPCIÓN PROFUNDA
+─────────────────────────────────────────────────────────────────────────────
+Descripción breve (2-5 líneas):
+
+[                                                                          ]
+[                                                                          ]
+[                                                                          ]
+[                                                                          ]
+[                                                                          ]
+
+Palabras clave (5-12 términos):
+
+[   ], [   ], [   ], [   ], [   ], [   ], [   ], [   ], [   ], [   ], [   ]
+
+CARACTERÍSTICAS FÍSICAS
+─────────────────────────────────────────────────────────────────────────────
+Soporte original (inferido):  □ Papel blanco      □ Papel tintado    □ Cartulina
+                              □ Papel con timbre  □ Papel de periódico □ Otro: _____
+
+Idioma:                       □ Español   □ Catalán   □ Otros: ________________
+
+Cantidad de páginas:          [   ] páginas
+
+Estado de legibilidad:        □ Clara    □ Parcial    □ Baja    □ Ilegible
+
+Estado de conservación:       □ Bueno    □ Regular    □ Deteriorado
+
+VALORES ARCHIVÍSTICOS
+─────────────────────────────────────────────────────────────────────────────
+Valor administrativo:         □ Alto     □ Medio     □ Bajo     □ Nulo
+
+Valor histórico:              □ Alto     □ Medio     □ Bajo     □ Nulo
+
+Valor patrimonial:            □ Alto     □ Medio     □ Bajo     □ Nulo
+
+Nivel de acceso:              □ Público  □ Restringido □ Confidencial
+
+CONTROL DE CALIDAD
+─────────────────────────────────────────────────────────────────────────────
+¿Es duplicado?                □ Sí       □ No        □ Dudoso
+  Si es duplicado, referencia del original: [_______________________]
+
+¿Está incompleto?             □ Sí       □ No
+  Si está incompleto, indicación: [__________________________________]
+
+¿OCR revisado?                □ Sí       □ No
+
+OBSERVACIONES Y NOTAS
+─────────────────────────────────────────────────────────────────────────────
+[                                                                          ]
+[                                                                          ]
+[                                                                          ]
+[                                                                          ]
+
+Datos marcados como [inferido]: _______________________________________________
+
+Incertidumbres registradas: ___________________________________________________
+
+Necesidades especiales (restauración, limpieza, etc.): _________________________
+
+════════════════════════════════════════════════════════════════════════════
+Catalogador: ________________________________   Fecha: ___________________
+Revisado por: ________________________________   Fecha: ___________________
+════════════════════════════════════════════════════════════════════════════
