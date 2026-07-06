@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manual de uso - Inventario Estación La Lata</title>
+  <meta name="description" content="Manual para cargar, publicar y buscar documentos en el repositorio Estación La Lata.">
+  <style>
+    :root {
+      --bg: #f7f5ef;
+      --surface: #ffffff;
+      --ink: #25231f;
+      --muted: #6f6a61;
+      --line: #ded8cc;
+      --accent: #135f54;
+      --accent-2: #b45d2a;
+      --code: #f0ece2;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Avenir Next", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+      line-height: 1.62;
+    }
+
+    header {
+      padding: 34px 0 28px;
+      border-bottom: 1px solid var(--line);
+      background: #fffdf8;
+    }
+
+    main,
+    .wrap {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    main {
+      padding: 30px 0 56px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent-2);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2 {
+      font-family: "Iowan Old Style", Georgia, serif;
+      line-height: 1.12;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 7vw, 58px);
+    }
+
+    h2 {
+      margin: 34px 0 10px;
+      font-size: 28px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .lead {
+      margin-top: 14px;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 42px;
+      margin-top: 18px;
+      padding: 9px 14px;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      color: var(--accent);
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .panel {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    code,
+    pre {
+      background: var(--code);
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    code {
+      padding: 2px 5px;
+    }
+
+    pre {
+      overflow-x: auto;
+      padding: 14px;
+    }
+
+    li {
+      margin-bottom: 7px;
+    }
+
+    footer {
+      padding: 24px 0;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Manual operativo</p>
+      <h1>Uso del repositorio documental</h1>
+      <p class="lead">Guía para cargar documentos, mantener el inventario y buscar piezas digitalizadas de la Estación La Lata.</p>
+      <a class="button" href="index.html">Volver al buscador</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <p><strong>Repositorio:</strong> <code>nuevositio/inventario-estacion-la-lata</code></p>
+      <p><strong>Sitio público previsto:</strong> <code>https://nuevositio.github.io/inventario-estacion-la-lata/</code></p>
+      <p>La regla principal es mantener juntos el archivo digital, su registro de inventario y una nomenclatura estable.</p>
+    </section>
+
+    <h2>Estructura</h2>
+    <pre><code>Carpeta01/                         Documentos digitalizados de la carpeta física 01
+Carpeta02/                         Documentos digitalizados de la carpeta física 02
+Carpeta03/                         Documentos digitalizados de la carpeta física 03
+_CONTROL/INVENTARIO_ESTACION_LA_LATA.xlsx  Archivo base de inventario
+_CONTROL/INVENTARIO_ESTACION_LA_LATA.csv   Exportación usada por la web
+assets/inventory-data.js           Datos públicos generados para GitHub Pages
+index.html                         Buscador público</code></pre>
+
+    <h2>Convención de nombres</h2>
+    <p>Todos los PDF deben seguir este formato:</p>
+    <pre><code>LL_CarpetaXX_DOCXXXX.pdf</code></pre>
+    <p>Ejemplo: <code>LL_Carpeta02_DOC0007.pdf</code>. La carpeta física y el número de documento deben coincidir con los campos <code>Carpeta_Fisica</code>, <code>Numero_Documento</code>, <code>Nombre_Normalizado</code> y <code>Ruta_Almacenamiento</code>.</p>
+
+    <h2>Cargar documentos online</h2>
+    <ol>
+      <li>Entrar al repositorio en GitHub.</li>
+      <li>Abrir la carpeta correspondiente, por ejemplo <code>Carpeta03</code>.</li>
+      <li>Usar <code>Add file</code> y luego <code>Upload files</code>.</li>
+      <li>Subir el PDF ya nombrado con la convención oficial.</li>
+      <li>Confirmar el cambio con un mensaje claro, por ejemplo <code>Agregar documento LL_Carpeta03_DOC0028</code>.</li>
+      <li>Actualizar el inventario base <code>_CONTROL/INVENTARIO_ESTACION_LA_LATA.xlsx</code>.</li>
+      <li>Actualizar la exportación <code>_CONTROL/INVENTARIO_ESTACION_LA_LATA.csv</code>.</li>
+      <li>Regenerar <code>assets/inventory-data.js</code> para que el buscador vea el nuevo registro.</li>
+      <li>Confirmar y subir esos cambios.</li>
+    </ol>
+
+    <h2>Cargar desde la computadora</h2>
+    <pre><code>git pull
+cp /ruta/al/documento.pdf Carpeta03/LL_Carpeta03_DOC0028.pdf
+python3 tools/generate_pages_data.py
+git status
+git add Carpeta03/LL_Carpeta03_DOC0028.pdf _CONTROL/INVENTARIO_ESTACION_LA_LATA.csv assets/inventory-data.js
+git commit -m "Agregar documento LL_Carpeta03_DOC0028"
+git push</code></pre>
+
+    <h2>Buscar documentos</h2>
+    <ol>
+      <li>Escribir una palabra en el buscador: nombre, tema, año, autor, tipo documental o palabra clave.</li>
+      <li>Filtrar por carpeta física si se conoce el origen.</li>
+      <li>Filtrar por valor patrimonial o estado OCR cuando se necesita priorizar revisión.</li>
+      <li>Abrir el PDF con el botón <code>Abrir PDF</code>.</li>
+      <li>Usar <code>Copiar ruta</code> para citar o informar el documento exacto.</li>
+    </ol>
+
+    <h2>Control de calidad</h2>
+    <ul>
+      <li>Cada PDF debe tener una fila en el inventario.</li>
+      <li>Cada fila del inventario debe apuntar a un PDF existente.</li>
+      <li>No debe haber nombres duplicados.</li>
+      <li><code>Nivel_Acceso</code> debe estar revisado antes de publicar documentos sensibles.</li>
+      <li><code>Titulo</code>, <code>Tema_Principal</code>, <code>Descripcion_Breve</code> y <code>Palabras_Clave</code> deben permitir encontrar el documento.</li>
+    </ul>
+  </main>
+
+  <footer>
+    <div class="wrap">Fondo documental Estación La Lata - Cardona.</div>
+  </footer>
+</body>
+</html>

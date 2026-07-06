@@ -1,6 +1,10 @@
 # Inventario y Repositorio Documental - Estación La Lata
 
-Proyecto de catalogación y gestión documental de la Estación La Lata del Municipio de Cardona.
+Proyecto de catalogación, preservación digital y publicación web del fondo documental de la Estación La Lata del Municipio de Cardona.
+
+Sitio público previsto en GitHub Pages:
+
+`https://nuevositio.github.io/inventario-estacion-la-lata/`
 
 ## Descripción
 
@@ -9,11 +13,16 @@ Sistema de inventario y repositorio para organización, catalogación y preserva
 ## Estructura del Repositorio
 
 ```
+├── index.html          ← Buscador público para GitHub Pages
+├── assets/            ← Datos públicos generados para el buscador
 ├── Carpeta01/          ← Documentos digitalizados (carpeta física 01)
 ├── Carpeta02/          ← Documentos digitalizados (carpeta física 02)
 ├── ...
 ├── Carpeta25/          ← Documentos digitalizados (carpeta física 25)
+├── MANUAL_REPOSITORIO.md              ← Manual de carga y búsqueda
+├── tools/generate_pages_data.py       ← Generador de datos web desde CSV
 └── _CONTROL/           ← Documentación de control y catalogación
+    ├── INVENTARIO_ESTACION_LA_LATA.xlsx   ← Archivo base de trabajo
     ├── INVENTARIO_ESTACION_LA_LATA.csv    ← Base de datos principal
     ├── PROTOCOLO_ANALISIS.md               ← Protocolo de catalogación
     ├── GUIA_RAPIDA.txt                     ← Guía rápida de referencia
@@ -30,6 +39,41 @@ Sistema de inventario y repositorio para organización, catalogación y preserva
 - **DOCXXXX** = Número correlativo del documento (0001-9999)
 
 **Ejemplo:** `LL_Carpeta01_DOC0001.pdf`
+
+## Publicación en GitHub Pages
+
+La web estática se publica desde la raíz de la rama `main` para que los enlaces a `Carpeta01`, `Carpeta02` y `Carpeta03` funcionen directamente.
+
+Configuración recomendada en GitHub:
+
+- **Settings → Pages**
+- **Source:** Deploy from a branch
+- **Branch:** `main`
+- **Folder:** `/ (root)`
+
+Después de cada actualización del inventario CSV, regenerar los datos públicos:
+
+```bash
+python3 tools/generate_pages_data.py
+```
+
+Luego confirmar y subir los cambios:
+
+```bash
+git add _CONTROL/INVENTARIO_ESTACION_LA_LATA.csv assets/inventory-data.js
+git commit -m "Actualizar datos del inventario web"
+git push
+```
+
+## Alcance publicado inicialmente
+
+El sitio web inicial publica las primeras tres carpetas:
+
+- `Carpeta01`: 11 documentos.
+- `Carpeta02`: 13 documentos.
+- `Carpeta03`: 26 registros de inventario, con control visible de diferencias entre CSV y PDF existentes.
+
+El resto de las carpetas queda en el repositorio para trabajo progresivo de catalogación y publicación.
 
 ## Campos de Catalogación
 
@@ -57,6 +101,11 @@ Sistema de inventario y repositorio para organización, catalogación y preserva
 4. **Renombramiento**: Actualizar nombre del archivo
 5. **Catalogación**: Completar datos en INVENTARIO_ESTACION_LA_LATA.csv
 6. **Validación**: Verificar todos los campos según PROTOCOLO_ANALISIS.md
+7. **Publicación**: Regenerar `assets/inventory-data.js` y subir los cambios a GitHub
+
+## Manual de uso
+
+Consultar [MANUAL_REPOSITORIO.md](MANUAL_REPOSITORIO.md) para el flujo detallado de carga online, carga desde computadora, búsqueda de documentos y control de calidad.
 
 ## Autor del Inventario
 
@@ -68,7 +117,7 @@ Sistema de inventario y repositorio para organización, catalogación y preserva
 
 ## Estado del Proyecto
 
-En desarrollo - Fase inicial de catalogación de Carpeta01
+En desarrollo - publicación inicial de `Carpeta01`, `Carpeta02` y `Carpeta03` como ejemplo metodológico para inventarios de bienes culturales.
 
 ## Licencia
 
