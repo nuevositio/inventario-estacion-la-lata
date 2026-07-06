@@ -83,17 +83,17 @@
       height: 48px;
       display: grid;
       place-items: center;
+      overflow: hidden;
       border: 3px solid rgba(255, 255, 255, .86);
       border-radius: 50%;
-      background: linear-gradient(150deg, #fff 0 48%, var(--soft-green) 49% 100%);
-      color: var(--brand-green-700);
+      background: #fff;
       box-shadow: 0 10px 24px rgba(0, 0, 0, .16);
-      font-family: var(--font-heading);
-      font-size: 10px;
-      font-weight: 800;
-      line-height: .9;
-      text-align: center;
-      text-transform: uppercase;
+    }
+
+    .brand-mark img {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
     }
 
     .brand-title {
@@ -260,7 +260,9 @@
   <header>
     <div class="wrap topbar">
       <a class="brand" href="https://cardona.milocapp.uy/" aria-label="Municipio de Cardona">
-        <span class="brand-mark">Cardona</span>
+        <span class="brand-mark">
+          <img src="assets/logo_municipio.webp" alt="Logo del Municipio de Cardona" width="56" height="56">
+        </span>
         <span>
           <span class="brand-title">Municipio de Cardona</span>
           <span class="brand-subtitle">Soriano · Uruguay</span>
